@@ -69,3 +69,43 @@ build.dart --machine --changed=web\out\binding_student.html --changed=web\out\bi
 Total time                                                   --  35 ms
 build.dart finished [1175 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/binding_student.html","to":"web\\out\\binding_student.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\binding_student\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/binding_student.html                 -- 726 ms
+Total time                                                   -- 776 ms
+build.dart finished [2236 ms]
+
+---
+build.dart --machine --changed=web\out\binding_student.html --changed=web\out\binding_student.html.dart --chang...
+Total time                                                   --  38 ms
+build.dart finished [1245 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/binding_student.html","to":"web\\out\\binding_student.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\binding_student\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/binding_student.html                 -- 622 ms
+Total time                                                   -- 662 ms
+build.dart finished [2099 ms]
+
+---
+build.dart --machine --changed=web\out\binding_student.html --changed=web\out\binding_student.html.dart --chang...
+Total time                                                   --  49 ms
+build.dart finished [1347 ms]
+

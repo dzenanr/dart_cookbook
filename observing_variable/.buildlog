@@ -87,3 +87,43 @@ build.dart --machine --changed=web\out\observing_variable.html --changed=web\out
 Total time                                                   -- 184 ms
 build.dart finished [1140 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/observing_variable.html","to":"web\\out\\observing_variable.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\observing_variable\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/observing_variable.html              -- 604 ms
+Total time                                                   -- 648 ms
+build.dart finished [1787 ms]
+
+---
+build.dart --machine --changed=web\out\observing_variable.html --changed=web\out\observing_variable.html.dart -...
+Total time                                                   --  37 ms
+build.dart finished [1090 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/observing_variable.html","to":"web\\out\\observing_variable.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\observing_variable\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/observing_variable.html              -- 607 ms
+Total time                                                   -- 639 ms
+build.dart finished [1624 ms]
+
+---
+build.dart --machine --changed=web\out\observing_variable.html --changed=web\out\observing_variable.html.dart -...
+Total time                                                   -- 100 ms
+build.dart finished [1391 ms]
+

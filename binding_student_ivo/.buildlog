@@ -64,3 +64,43 @@ build.dart --machine --changed=web\out\binding_student_ivo.html --changed=web\ou
 Total time                                                   --  93 ms
 build.dart finished [1004 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/binding_student_ivo.html","to":"web\\out\\binding_student_ivo.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\binding_student_ivo\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/binding_student_ivo.html             -- 948 ms
+Total time                                                   -- 996 ms
+build.dart finished [2103 ms]
+
+---
+build.dart --machine --changed=web\out\binding_student_ivo.html --changed=web\out\binding_student_ivo.html.dart...
+Total time                                                   --  43 ms
+build.dart finished [923 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/binding_student_ivo.html","to":"web\\out\\binding_student_ivo.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\binding_student_ivo\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/binding_student_ivo.html             -- 769 ms
+Total time                                                   -- 807 ms
+build.dart finished [1711 ms]
+
+---
+build.dart --machine --changed=web\out\binding_student_ivo.html --changed=web\out\binding_student_ivo.html.dart...
+Total time                                                   --  38 ms
+build.dart finished [1145 ms]
+

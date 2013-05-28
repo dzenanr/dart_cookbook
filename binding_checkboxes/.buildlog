@@ -77,3 +77,40 @@ build.dart --machine --changed=web\out\binding_checkboxes.html --changed=web\out
 Total time                                                   --  50 ms
 build.dart finished [1383 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/binding_checkboxes.html","to":"web\\out\\binding_checkboxes.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\binding_checkboxes\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/binding_checkboxes.html              -- 440 ms
+Total time                                                   -- 478 ms
+build.dart finished [1561 ms]
+
+---
+build.dart --machine --changed=web\out\binding_checkboxes.html --changed=web\out\binding_checkboxes.html.dart -...
+Total time                                                   --  59 ms
+build.dart finished [1353 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+Total time                                                   --  27 ms
+build.dart finished [718 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/binding_checkboxes.html","to":"web\\out\\binding_checkboxes.html"}}]
+Total time spent on web/binding_checkboxes.html              -- 419 ms
+Total time                                                   -- 467 ms
+build.dart finished [1389 ms]
+
+---
+build.dart --machine --changed=web\out\binding_checkboxes.html --changed=web\out\binding_checkboxes.html.dart -...
+Total time                                                   --  31 ms
+build.dart finished [1251 ms]
+

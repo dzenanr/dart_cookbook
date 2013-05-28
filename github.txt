@@ -29,7 +29,7 @@ Create a New Repo at GitHub
 (without README, since cloning will not be used).
 Repository Name: dart_cookbook
 Description: 
-  Examples are from [Dart Cookbook] (http://www.dartlang.org/docs/cookbook/).
+  Examples from Dart Cookbook.
       
 Next steps:
   cd git/dart/educ/dart_cookbook

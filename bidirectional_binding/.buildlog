@@ -75,3 +75,43 @@ build.dart --machine --changed=web\out\bidirectional_binding.html --changed=web\
 Total time                                                   -- 149 ms
 build.dart finished [3559 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/bidirectional_binding.html","to":"web\\out\\bidirectional_binding.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\bidirectional_binding\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/bidirectional_binding.html           -- 488 ms
+Total time                                                   -- 528 ms
+build.dart finished [1443 ms]
+
+---
+build.dart --machine --changed=web\out\bidirectional_binding.html --changed=web\out\bidirectional_binding.html....
+Total time                                                   --  40 ms
+build.dart finished [1380 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/bidirectional_binding.html","to":"web\\out\\bidirectional_binding.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\bidirectional_binding\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/bidirectional_binding.html           -- 584 ms
+Total time                                                   -- 627 ms
+build.dart finished [1799 ms]
+
+---
+build.dart --machine --changed=web\out\bidirectional_binding.html --changed=web\out\bidirectional_binding.html....
+Total time                                                   --  45 ms
+build.dart finished [1424 ms]
+

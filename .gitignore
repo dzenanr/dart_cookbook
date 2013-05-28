@@ -1,5 +1,5 @@
-.children
 packages
+*/.buildlog
 */pubspec.lock
 */web/out
 *.js

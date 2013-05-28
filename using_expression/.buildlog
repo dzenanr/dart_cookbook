@@ -89,3 +89,43 @@ build.dart --machine --changed=web\out\using_expression.html --changed=web\out\u
 Total time                                                   -- 138 ms
 build.dart finished [979 ms]
 
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\using_expression\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/using_expression.html                -- 611 ms
+Total time                                                   -- 675 ms
+build.dart finished [2019 ms]
+
+---
+build.dart --machine --changed=web\out\using_expression.html --changed=web\out\using_expression.html.dart --cha...
+Total time                                                   --  65 ms
+build.dart finished [1982 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+error unable to create symlink
+ target: C:\Users\ridjanod\git\dart\educ\dart_cookbook\using_expression\web\packages
+ link:web\out\packages
+subprocess stdout:
+
+subprocess stderr:
+Impossible de cr‚er un fichier d‚j… existant.
+
+Total time spent on web/using_expression.html                -- 856 ms
+Total time                                                   -- 895 ms
+build.dart finished [2515 ms]
+
+---
+build.dart --machine --changed=web\out\using_expression.html --changed=web\out\using_expression.html.dart --cha...
+Total time                                                   --  53 ms
+build.dart finished [1459 ms]
+
