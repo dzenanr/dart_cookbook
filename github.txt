@@ -32,7 +32,7 @@ Description:
   Examples are from [Dart Cookbook] (http://www.dartlang.org/docs/cookbook/).
       
 Next steps:
-  cd git/dart/dart_cookbook
+  cd git/dart/educ/dart_cookbook
   git init
   git status
   git add .
@@ -46,7 +46,7 @@ Git with Git Bash
 
 Clone a remote repository into a local repository.
 
-cd git/dart
+cd git/dart/educ
 git clone https://github.com/dzenanr/dart_cookbook.git
 cd dart_cookbook
 
@@ -66,7 +66,7 @@ git pull origin master
 
 Work with a local repository
 
-cd git/dart/dart_cookbook
+cd git/dart/educ/dart_cookbook
 
 git status
 
