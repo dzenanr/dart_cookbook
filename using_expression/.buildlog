@@ -1,0 +1,91 @@
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+Total time spent on web/using_expression.html                -- 1114 ms
+Total time                                                   -- 1175 ms
+build.dart finished [2394 ms]
+
+---
+build.dart --machine --changed=web\out\using_expression.css --changed=web\out\using_expression.dart --changed=w...
+Total time                                                   --  74 ms
+build.dart finished [1879 ms]
+
+---
+build.dart --machine --removed=web\xclickcounter.dart
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+[{"method":"error","params":{"file":"web\\xclickcounter.html","message":"unable to open file \"web\\xclickcounter.dart\"","line":12,"charStart":298,"charEnd":355}}]
+Total time spent on web/using_expression.html                -- 295 ms
+Total time                                                   -- 332 ms
+build.dart finished [995 ms]
+
+---
+build.dart --machine --removed=web\xclickcounter.html
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+[{"method":"error","params":{"file":"web/using_expression.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":193,"charEnd":238}}]
+[{"method":"warning","params":{"file":"web/using_expression.html","message":"custom element with tag name x-click-counter not found.","line":18,"charStart":373,"charEnd":444}}]
+Total time spent on web/using_expression.html                -- 262 ms
+Total time                                                   -- 307 ms
+build.dart finished [998 ms]
+
+---
+build.dart --machine --changed=web\using_expression.dart
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+[{"method":"error","params":{"file":"web/using_expression.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":193,"charEnd":238}}]
+[{"method":"warning","params":{"file":"web/using_expression.html","message":"custom element with tag name x-click-counter not found.","line":18,"charStart":373,"charEnd":444}}]
+Total time spent on web/using_expression.html                -- 275 ms
+Total time                                                   -- 311 ms
+build.dart finished [1229 ms]
+
+---
+build.dart --machine --changed=web\using_expression.html
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+Total time spent on web/using_expression.html                -- 589 ms
+Total time                                                   -- 627 ms
+build.dart finished [1322 ms]
+
+---
+build.dart --machine --changed=web\out\using_expression.html --changed=web\out\using_expression.html.dart --cha...
+Total time                                                   --  27 ms
+build.dart finished [684 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+Total time spent on web/using_expression.html                -- 361 ms
+Total time                                                   -- 417 ms
+build.dart finished [1567 ms]
+
+---
+build.dart --machine --changed=web\out\using_expression.html --changed=web\out\using_expression.html.dart --cha...
+Total time                                                   -- 216 ms
+build.dart finished [3143 ms]
+
+---
+build.dart --machine --removed=web\using_expression.css
+Total time                                                   --  27 ms
+build.dart finished [715 ms]
+
+---
+build.dart --machine --removed=web\using_expression.dart
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+Total time spent on web/using_expression.html                -- 271 ms
+Total time                                                   -- 308 ms
+build.dart finished [981 ms]
+
+---
+build.dart --machine --changed=web\out\using_expression.html --changed=web\out\using_expression.html.dart --cha...
+Total time                                                   --  33 ms
+build.dart finished [732 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/using_expression.html","to":"web\\out\\using_expression.html"}}]
+Total time spent on web/using_expression.html                -- 2112 ms
+Total time                                                   -- 2269 ms
+build.dart finished [3883 ms]
+
+---
+build.dart --machine --changed=web\out\using_expression.html --changed=web\out\using_expression.html.dart --cha...
+Total time                                                   -- 138 ms
+build.dart finished [979 ms]
+

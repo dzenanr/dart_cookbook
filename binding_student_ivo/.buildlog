@@ -1,0 +1,66 @@
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/binding_student_ivo.html","to":"web\\out\\binding_student_ivo.html"}}]
+Total time spent on web/binding_student_ivo.html             -- 483 ms
+Total time                                                   -- 517 ms
+build.dart finished [1241 ms]
+
+---
+build.dart --machine --changed=web\out\binding_student_ivo.css --changed=web\out\binding_student_ivo.dart --cha...
+Total time                                                   --  35 ms
+build.dart finished [881 ms]
+
+---
+build.dart --machine --removed=web\binding_student_ivo.dart
+[{"method":"mapping","params":{"from":"web/binding_student_ivo.html","to":"web\\out\\binding_student_ivo.html"}}]
+[{"method":"warning","params":{"file":"web/binding_student_ivo.html","message":"unable to open file \"web\\binding_student_ivo.css\"","line":7,"charStart":94,"charEnd":148}}]
+[{"method":"error","params":{"file":"web/binding_student_ivo.html","message":"unable to open file \"web\\binding_student_ivo.dart\"","line":21,"charStart":473,"charEnd":536}}]
+Total time spent on web/binding_student_ivo.html             -- 241 ms
+Total time                                                   -- 280 ms
+build.dart finished [3098 ms]
+
+---
+build.dart --machine --removed=web\xclickcounter.dart
+[{"method":"mapping","params":{"from":"web/binding_student_ivo.html","to":"web\\out\\binding_student_ivo.html"}}]
+[{"method":"warning","params":{"file":"web/binding_student_ivo.html","message":"unable to open file \"web\\binding_student_ivo.css\"","line":7,"charStart":94,"charEnd":148}}]
+[{"method":"error","params":{"file":"web/binding_student_ivo.html","message":"unable to open file \"web\\binding_student_ivo.dart\"","line":21,"charStart":473,"charEnd":536}}]
+[{"method":"error","params":{"file":"web\\xclickcounter.html","message":"unable to open file \"web\\xclickcounter.dart\"","line":12,"charStart":298,"charEnd":355}}]
+Total time spent on web/binding_student_ivo.html             -- 193 ms
+Total time                                                   -- 226 ms
+build.dart finished [868 ms]
+
+---
+build.dart --machine --removed=web\xclickcounter.html
+[{"method":"mapping","params":{"from":"web/binding_student_ivo.html","to":"web\\out\\binding_student_ivo.html"}}]
+[{"method":"error","params":{"file":"web/binding_student_ivo.html","message":"unable to open file \"web\\xclickcounter.html\"","line":10,"charStart":196,"charEnd":241}}]
+[{"method":"warning","params":{"file":"web/binding_student_ivo.html","message":"unable to open file \"web\\binding_student_ivo.css\"","line":7,"charStart":94,"charEnd":148}}]
+[{"method":"error","params":{"file":"web/binding_student_ivo.html","message":"unable to open file \"web\\binding_student_ivo.dart\"","line":21,"charStart":473,"charEnd":536}}]
+[{"method":"warning","params":{"file":"web/binding_student_ivo.html","message":"custom element with tag name x-click-counter not found.","line":18,"charStart":379,"charEnd":450}}]
+Total time spent on web/binding_student_ivo.html             -- 119 ms
+Total time                                                   -- 154 ms
+build.dart finished [838 ms]
+
+---
+build.dart --machine --changed=web\binding_student_ivo.html
+[{"method":"mapping","params":{"from":"web/binding_student_ivo.html","to":"web\\out\\binding_student_ivo.html"}}]
+Total time spent on web/binding_student_ivo.html             -- 361 ms
+Total time                                                   -- 392 ms
+build.dart finished [1097 ms]
+
+---
+build.dart --machine --changed=web\out\binding_student_ivo.html --changed=web\out\binding_student_ivo.html.dart...
+Total time                                                   --  29 ms
+build.dart finished [690 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/binding_student_ivo.html","to":"web\\out\\binding_student_ivo.html"}}]
+Total time spent on web/binding_student_ivo.html             -- 5981 ms
+Total time                                                   -- 6029 ms
+build.dart finished [7112 ms]
+
+---
+build.dart --machine --changed=web\out\binding_student_ivo.html --changed=web\out\binding_student_ivo.html.dart...
+Total time                                                   --  93 ms
+build.dart finished [1004 ms]
+

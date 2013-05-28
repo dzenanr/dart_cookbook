@@ -1,0 +1,89 @@
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/observing_variable.html","to":"web\\out\\observing_variable.html"}}]
+Total time spent on web/observing_variable.html              -- 1943 ms
+Total time                                                   -- 1979 ms
+build.dart finished [2679 ms]
+
+---
+build.dart --machine --changed=web\out\observing_variable.css --changed=web\out\observing_variable.dart --chang...
+Total time                                                   --  57 ms
+build.dart finished [1591 ms]
+
+---
+build.dart --machine --changed=web\observing_variable.html
+[{"method":"mapping","params":{"from":"web/observing_variable.html","to":"web\\out\\observing_variable.html"}}]
+Total time spent on web/observing_variable.html              -- 333 ms
+Total time                                                   -- 373 ms
+build.dart finished [1159 ms]
+
+---
+build.dart --machine --changed=web\out\observing_variable.html --changed=web\out\observing_variable.html.dart -...
+Total time                                                   --  34 ms
+build.dart finished [677 ms]
+
+---
+build.dart --machine --changed=web\observing_variable.dart
+[{"method":"mapping","params":{"from":"web/observing_variable.html","to":"web\\out\\observing_variable.html"}}]
+Total time spent on web/observing_variable.html              -- 324 ms
+Total time                                                   -- 355 ms
+build.dart finished [992 ms]
+
+---
+build.dart --machine --changed=web\out\observing_variable.html --changed=web\out\observing_variable.html.dart -...
+Total time                                                   --  27 ms
+build.dart finished [695 ms]
+
+---
+build.dart --machine --removed=web\xclickcounter.dart
+[{"method":"mapping","params":{"from":"web/observing_variable.html","to":"web\\out\\observing_variable.html"}}]
+Total time spent on web/observing_variable.html              -- 352 ms
+Total time                                                   -- 384 ms
+build.dart finished [1365 ms]
+
+---
+build.dart --machine --changed=web\out\observing_variable.html --changed=web\out\observing_variable.html.dart -...
+Total time                                                   --  36 ms
+build.dart finished [723 ms]
+
+---
+build.dart --machine --removed=web\xclickcounter.html
+[{"method":"mapping","params":{"from":"web/observing_variable.html","to":"web\\out\\observing_variable.html"}}]
+Total time spent on web/observing_variable.html              -- 379 ms
+Total time                                                   -- 416 ms
+build.dart finished [1125 ms]
+
+---
+build.dart --machine --changed=web\out\observing_variable.html --changed=web\out\observing_variable.html.dart -...
+Total time                                                   --  30 ms
+build.dart finished [688 ms]
+
+---
+build.dart --machine --removed=web\observing_variable.dart
+[{"method":"mapping","params":{"from":"web/observing_variable.html","to":"web\\out\\observing_variable.html"}}]
+Total time spent on web/observing_variable.html              -- 319 ms
+Total time                                                   -- 350 ms
+build.dart finished [1054 ms]
+
+---
+build.dart --machine --changed=web\out\observing_variable.html --changed=web\out\observing_variable.html.dart -...
+Total time                                                   --  35 ms
+build.dart finished [709 ms]
+
+---
+build.dart --machine --removed=web\observing_variable.css
+Total time                                                   --  32 ms
+build.dart finished [727 ms]
+
+---
+build.dart --machine --full
+[{"method":"mapping","params":{"from":"web/observing_variable.html","to":"web\\out\\observing_variable.html"}}]
+Total time spent on web/observing_variable.html              -- 458 ms
+Total time                                                   -- 498 ms
+build.dart finished [2858 ms]
+
+---
+build.dart --machine --changed=web\out\observing_variable.html --changed=web\out\observing_variable.html.dart -...
+Total time                                                   -- 184 ms
+build.dart finished [1140 ms]
+
