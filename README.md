@@ -4,7 +4,7 @@
 
 ## Description
 
-Examples are from [Dart Cookbook] (http://www.dartlang.org/docs/cookbook/) and 
+Web UI examples are from [Dart Cookbook] (http://www.dartlang.org/docs/cookbook/) and 
 [Observables and Data Binding with Web UI] (http://observables-articles.dart-lang.appspot.com/web-ui/observables/).
 
 Each example is a separate Dart Editor application. 
