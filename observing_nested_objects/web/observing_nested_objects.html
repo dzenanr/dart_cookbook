@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Observing Nested Objects</title>
+  </head>
+  <body>
+    <h1>Observing Person Address</h1>
+
+    <p>
+      Name: <input type="text" bind-value="person.name">
+    </p>
+    <p>
+      City: <input type="text" bind-value="person.address.city">
+    </p>
+
+    <p>Person's name: {{person.name}}</p>
+    <p>Person's Address's city: {{person.address.city}}</p>
+
+    <script type="application/dart" src="observing_nested_objects.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+name: observing_collections
+description: A sample application
+dependencies:
+  browser: any
+  web_ui: any
+
+#dependencies:
+#  js: any
+#  unittest: any

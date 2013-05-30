@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Observing Collections</title>
+  </head>
+  <body>
+    <h1>Observing List</h1>
+
+    <p>
+      <button on-click="addTimestamp()">Add Timestamp</button>
+      <button on-click="clear()">Clear</button>
+    </p>
+
+    <ul template iterate="ts in timestamps">
+      <li>{{ts}}</li>
+    </ul>
+
+    <script type="application/dart" src="observing_collections.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
