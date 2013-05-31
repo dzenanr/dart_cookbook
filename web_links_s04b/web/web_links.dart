@@ -3,7 +3,7 @@ import 'package:web_ui/web_ui.dart';
 
 import 'dart:async';
 
-//@observable
+@observable
 List<Link> linkList;
 
 Links links;
