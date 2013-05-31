@@ -1,0 +1,5 @@
+name: web_links
+description: A sample WebUI application
+dependencies:
+  browser: any
+  web_ui: any

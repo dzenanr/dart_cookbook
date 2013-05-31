@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <body>
+    <element name="web-links" extends="div">
+      <template>
+        <div>
+          <label for="name">Name</label>
+          <input id="name" type="text"/>
+          <label for="url">web Link</label>
+          <input id="url" type="text"/>
+          <br/>
+          <button on-click="add()" class="button">Add</button>
+          <label id="message"></label>
+        </div>
+        <ul class="link">
+          <template repeat="webLink in webLinks">
+            <li>
+              <a href="{{ webLink.url.toString() }}">
+                {{ webLink.name }}
+              </a>
+            </li>
+          </template>
+        </ul>
+      </template>
+
+      <script type="application/dart" src="links.dart"></script>
+    </element>
+  </body>
+</html>
