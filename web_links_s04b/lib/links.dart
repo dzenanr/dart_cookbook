@@ -11,7 +11,7 @@ class Link {
   }
 }
 
-class Links {
+class Links<Link> {
   var _linkList = new List<Link>();
 
   add(Link link) {
@@ -22,7 +22,7 @@ class Links {
 }
 
 class Model {
-  var links = new Links();
+  var links = new Links<Link>();
 
   static Model model;
 

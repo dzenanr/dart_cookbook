@@ -11,7 +11,7 @@ class Link {
   }
 }
 
-class Links<Link> implements Iterable<Link> {
+class Links<Link> implements List<Link> {
   var _linkList = new List<Link>();
 
   add(Link link) {

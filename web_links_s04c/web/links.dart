@@ -4,7 +4,7 @@ import 'package:web_ui/web_ui.dart';
 import 'package:web_links/links.dart';
 
 class WebLinks extends WebComponent {
-  Links webLinks;
+  Links<Link> webLinks;
 
   add() {
     InputElement name = query("#name");

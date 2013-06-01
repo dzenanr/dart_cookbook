@@ -6,9 +6,9 @@ import 'dart:async';
 @observable
 List<Link> linkList;
 
-Links links;
+Links<Link> links;
 
-add(Links links) {
+add(Links<Link> links) {
   var link = new Link('GitHub', 'https://github.com');
   links.add(link);
 }
