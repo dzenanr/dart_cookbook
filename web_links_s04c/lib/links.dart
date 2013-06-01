@@ -11,14 +11,16 @@ class Link {
   }
 }
 
-class Links {
+class Links implements Iterable {
   var _linkList = new List<Link>();
 
   add(Link link) {
     _linkList.add(link);
   }
 
-  List<Link> toList() => _linkList.toList();
+  Iterator<Link> get iterator => _linkList.iterator;
+
+  List<Link> toList({bool growable: true}) => _linkList.toList({});
 }
 
 class Model {
